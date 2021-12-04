@@ -35,6 +35,7 @@ from . import creation  # NOQA
 from . import polygons
 from . import segments  # NOQA
 from . import traversal
+from . import intersections
 
 from .exchange.export import export_path
 
