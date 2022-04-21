@@ -9,5 +9,7 @@ tar -xzf /tmp/embree.tar.gz --strip-components=1 -C /usr/local
 rm -rf /tmp/embree.tar.gz
 
 # Install python bindings for embree (and upstream requirements).
-pip install --no-cache-dir numpy cython
-pip install --no-cache-dir https://github.com/scopatz/pyembree/releases/download/0.1.6/pyembree-0.1.6.tar.gz
+pip3 install --no-cache-dir numpy cython
+pip3 install --no-cache-dir https://github.com/scopatz/pyembree/releases/download/0.1.6/pyembree-0.1.6.tar.gz
+# Update environment variable
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/
